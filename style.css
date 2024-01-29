@@ -68,14 +68,18 @@ img{
 
 @media screen and (max-width: 550px) {
 
+    body{
+        height: 100vh;
+        width: 100%;
+    }
     .choices{
-        gap: 2rem;
+        gap: 0.8rem;
         margin-top: 5rem;
     }
 
     .choice{
-        height: 115px;
-        width: 115px;
+        height: 120px;
+        width: 120px;
     }
 
     img{
@@ -89,7 +93,7 @@ img{
 
     .msg{
         display: inline;
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 0.8rem;
     }
 
