@@ -65,3 +65,39 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 550px) {
+
+    .choices{
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+
+    .choice{
+        height: 115px;
+        width: 115px;
+    }
+
+    img{
+        height: 110px;
+        width: 110px;
+    }
+
+    #user, #computer{
+        font-size: 3rem;
+    }
+
+    .msg{
+        display: inline;
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+
+    .msg-container{
+        margin-top: 5rem;
+    }
+
+    .score-board{
+        margin-top: 6rem;
+    }
+}
